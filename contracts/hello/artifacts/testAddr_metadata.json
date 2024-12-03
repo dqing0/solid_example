@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "x",
+						"type": "address"
+					}
+				],
+				"name": "testTransfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/hello/testAddr.sol": "testAddr"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/hello/testAddr.sol": {
+			"keccak256": "0x6b1ab29cb81a08c815db711cb13018cc938d6561b0003e78901fad6b359185d5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3d2aa7d4557e659a103d00064c55f794f4b190b99208e2375733a76bbcb6891f",
+				"dweb:/ipfs/Qma78DE6o6ZEDQ5WNvq2hthBSSdG5ZBzT4DYWTpEMGWmXp"
+			]
+		}
+	},
+	"version": 1
+}
